@@ -4,7 +4,9 @@ Fancybox API Doc
 options
 ----------------------
 
-$("#id").fancybox({
+.. code-block:: bash
+
+    $("#id").fancybox({
 	padding : 10,
 	margin : 40,
 	opacity : false,
@@ -57,7 +59,7 @@ $("#id").fancybox({
 	onCleanup : function(){},
 	onClosed : function(){},
 	onError : function(){}
-});
+    });
 
 
 API function 
